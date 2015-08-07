@@ -15,6 +15,7 @@
     "git",
     "subtree"
   ],
+  "license": "MIT",
   "author": "Miguel A. Mejias",
   "bugs": {
     "url": "https://github.com/plitex/git-subtree/issues"
