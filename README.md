@@ -11,7 +11,9 @@ Using a subtrees config file, you can clone a project and create all subtree rem
 
 ## Install
 
-npm install -g git-subtree
+```bash
+$ npm install -g git-subtree
+```
 
 ## Configuration file
 
@@ -30,13 +32,13 @@ The git-subtree configuration must be stored in subtrees.json file in the projec
 ## Use
 
 ```bash
-git-subtree <command>
+$ git-subtree <command>
 ```
 
 ### Init
 
 ```bash
-git-subtree init [username]
+$ git-subtree init [username]
 ```
 
 This command creates all remotes from subtrees config and if it's a new project, where subtrees folders are still not created, will fetch from subtree remote and add the subtree.
@@ -44,7 +46,7 @@ This command creates all remotes from subtrees config and if it's a new project,
 ### Add
 
 ```bash
-git-subtree add <subtree> [username]
+$ git-subtree add <subtree> [username]
 ```
 
 Adds git remote, fetch it and creates the local folder with subtree content.
@@ -52,7 +54,7 @@ Adds git remote, fetch it and creates the local folder with subtree content.
 ### Pull
 
 ```bash
-git-subtree pull <subtree>
+$ git-subtree pull <subtree>
 ```
 
 Pulls subtree changes from subtree remote. 
@@ -60,7 +62,7 @@ Pulls subtree changes from subtree remote.
 ### Push
 
 ```bash
-git-subtree push <subtree>
+$ git-subtree push <subtree>
 ```
 
 Pushes subtree changes. 
@@ -68,7 +70,7 @@ Pushes subtree changes.
 ### Commit
 
 ```bash
-git-subtree commit <subtree> <message>
+$ git-subtree commit <subtree> <message>
 ```
 
 Commits subtree pending changes. 
