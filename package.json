@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "bin/git-subtree",
+  "bin": "bin/gitsbt",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plitex/git-subtree.git"
