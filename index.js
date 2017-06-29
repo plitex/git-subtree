@@ -35,7 +35,7 @@ if (args.length > 0) {
         }
     });
 } else {
-    console.log('usage: git-subtree <command>\n');
+    console.log('usage: gitsbt <command>\n');
     console.log('Commands:');
     console.log('init\tInitialize project subtrees');
     console.log('add\tCreate remote, fetch and add subtree folder');
